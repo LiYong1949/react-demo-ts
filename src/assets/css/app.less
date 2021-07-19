@@ -1,0 +1,219 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  // min-width: 1024px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+  .ant-layout {
+    background-color: #FFF;
+  }
+}
+
+.ant-popover .ant-popover-inner-content {
+  padding: 0;
+}
+
+.ant-drawer .ant-drawer-body {
+  padding: 0;
+}
+
+.d-content-container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  background-color: #eff3f6; // 浏览器不支持线性时显示
+  background-image: linear-gradient(#FFF,#eff3f6);
+}
+
+.d-full {
+  width: 100%;
+  height: 100%;
+}
+
+// 表格居中
+.d-table-center-container .ant-table-content tr {
+  th {
+    text-align: center;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  td {
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+// 文字颜色
+.d-text-danger {
+  color: #ED1C27;
+}
+
+.d-text-warning {
+  color: #FF8C00;
+}
+
+.d-text-success {
+  color: #40CB09;
+}
+
+.d-text-gray {
+  color: #CCC;
+}
+
+.d-text-light-gray {
+  color: #F3F3F3;
+}
+
+.d-text-info {
+  color: #52B7FF;
+}
+
+.d-text-default {
+  color: #3F3F3F;
+}
+
+.d-text-primary {
+  color: #9D60FF;
+}
+
+.d-text-white {
+  color: #FFF;
+}
+
+.d-text-blue {
+  color: #42BDFF;
+}
+
+.d-edit {
+  color: rgba(0, 0, 0, .2);
+  cursor: pointer;
+  &:hover {
+    color: rgba(0, 0, 0, .9);
+  }
+}
+
+.d-textalign-center {
+  text-align: center;
+}
+
+.d-bg-gray {
+  background: #F7F7F7;
+}
+
+.d-bg-light-success {
+  background: rgba(45, 221, 113, .1);
+}
+
+.d-border-top {
+  border-top: 1px solid #F3F3F3;
+}
+
+.d-border-bottom {
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.d-link {
+  cursor: pointer;
+  color: #2A79FF;
+
+  &:hover {
+    color: #5b92f1;
+  }
+}
+
+.d-tag {
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 15px;
+  margin: 0 5px;
+}
+
+.d-tag-success {
+  border: 1px solid #40CB09;
+  color: #40CB09;
+}
+
+.d-margin-15-0 {
+  margin: 15px 0;
+}
+
+.d-padding-15 {
+  padding: 15px;
+}
+
+.d-padding-5 {
+  padding: 5px;
+}
+
+.d-padding-0-15 {
+  padding: 0 15px;
+}
+
+// 抽屉样式
+.d-drawer-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-drawer-content {
+  width: initial;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.d-drawer-footer {
+  padding: 10px 15px;
+  border-top: 1px solid #f0f0f0;
+  background-color: #FFF;
+  text-align: right;
+}
+
+// 滚动条垂直方向的宽度
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+  /*背景样式*/
+  background-color: #FFF;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  /*垂直样式*/
+  height: 10px;
+  background-color: #D0D5D9;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  /*水平样式*/
+  height: 10px;
+  background-color: #D0D5D9;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+}

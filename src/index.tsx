@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './assets/css/app.less';
 import reportWebVitals from './reportWebVitals';
 import { ConfigProvider } from 'antd';
 import zhCN from 'antd/es/locale/zh_CN';
